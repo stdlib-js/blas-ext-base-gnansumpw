@@ -37,13 +37,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@esm/index.mjs';
+import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.0.10-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.0.10-esm/index.mjs';
 ```
 
 #### gnansumpw( N, x, stride )
@@ -152,7 +152,7 @@ var v = gnansumpw.ndarray( N, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@esm/index.mjs';
+import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.0.10-esm/index.mjs';
 
 var x;
 var i;
