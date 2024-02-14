@@ -50,7 +50,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-gnansumpw = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@umd/browser.js' )
+gnansumpw = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.2.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -62,7 +62,7 @@ var gnansumpw = require( 'path/to/vendor/umd/blas-ext-base-gnansumpw/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.2.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -179,7 +179,7 @@ var v = gnansumpw.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.2.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
