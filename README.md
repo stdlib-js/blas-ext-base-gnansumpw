@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gnansumpw/tags). For example,
+
+```javascript
 import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.3.0-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@esm/index.mjs';
 ```
 
 #### gnansumpw( N, x, strideX )
@@ -153,7 +158,7 @@ var v = gnansumpw.ndarray( 5, x, 2, 1 );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.3.0-esm/index.mjs';
+import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.7 ) > 0 ) {
