@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gnansumpw/tags). For example,
+
+```javascript
 import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.3.1-deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@deno/mod.js';
 ```
 
 #### gnansumpw( N, x, strideX )
@@ -148,7 +153,7 @@ var v = gnansumpw.ndarray( 5, x, 2, 1 );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@v0.3.1-deno/mod.js';
+import gnansumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gnansumpw@deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.7 ) > 0 ) {
